@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  background-color: #4b145b;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.App {
+  margin-top: 16rem;
+  height: 60%;
+  width: min(90%, 960px);
+  background-color: #fff;
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+.App h1 {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 3.4rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.App .accordion__list {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 720px) {
+  .container {
+    /* font-family: "Roboto", sans-serif; */
+    /* min-height: 100vh; */
+    /* background-color: #4b145b; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+
+  .App {
+    /* width: min(90%, 980px); */
+    /* background-color: #fff; */
+    padding: 4rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* border-radius: 6px; */
+  }
+  .App h1 {
+    flex-basis: 25%;
+    /* align-self: flex-start; */
+    text-align: left;
+    font-size: 3.4rem;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    /* font-weight: 500; */
+  }
+  .App .accordion__list {
+    flex-basis: 70%;
+    /* flex: 1; */
+  }
+}
