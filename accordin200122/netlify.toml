@@ -1,4 +1,0 @@
-[build]
-  command = "npm run build"
-  publish="react_projects/build"
-  base = "react_projects"
