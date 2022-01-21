@@ -1,6 +1,6 @@
 import CardList from "../cardDetails/cardList";
 import React, { useState } from "react";
-import "../card/card.css";
+
 
 const birthdayList = [
   {
