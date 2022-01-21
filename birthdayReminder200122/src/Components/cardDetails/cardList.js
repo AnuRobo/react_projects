@@ -1,5 +1,6 @@
 import React from "react";
-import "../cardDetails/cardList.css";
+
+
 function CardList(props) {
   console.log(props);
   const { birthdayList } = props;
